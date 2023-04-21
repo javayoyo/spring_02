@@ -116,13 +116,6 @@ public class HomeController {
 //        studentDTOList.add(studentDTO);
 
 
-
-
-
-
-
-
-
     }
         private StudentDTO newStudent (int i){
 
@@ -132,12 +125,7 @@ public class HomeController {
             studentDTO.setStudentNumber("111111" + i);
             return studentDTO;
 
-
         }
-
-
-
-
 
 }
 
