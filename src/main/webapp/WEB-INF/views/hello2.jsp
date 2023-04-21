@@ -13,7 +13,6 @@
 <body>
 <h2>hello2 입니당</h2>
 <button onclick="param1()">파라미터 전송</button>
-
 </body>
 <script>
     const param1 = () => {
@@ -21,7 +20,6 @@
     const name = "나나핑";
     const age = 3;
     location.href = "/hello-param1?name=" +name+ "&age=" +age;
-
 
     }
 </script>

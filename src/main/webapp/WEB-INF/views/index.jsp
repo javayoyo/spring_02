@@ -13,18 +13,18 @@
 <body>
 <a href="/hello1">hello1으로 가자</a>
 
-
 <button onclick="hello2()">hello2로 가자</button>
 
+<a href="hello3">hello3 출력</a>
+<a href="hello4">hello4 출력</a>
+<a href="hello5">hello5 출력</a>
 
 
 </body>
 <script>
     const hello2 = () => {
         location.href="/hello2";
-
     }
 
-    
 </script>
 </html>
