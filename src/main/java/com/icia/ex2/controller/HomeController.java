@@ -54,7 +54,7 @@ public class HomeController {
 
 
     @GetMapping("/form-param1")
-    public String fomrParam1(@RequestParam("p1") String p1, @RequestParam("p2") String p2) {
+    public String formrParam1(@RequestParam("p1") String p1, @RequestParam("p2") String p2) {
         System.out.println(" p1 = " + p1 + ", p2 =" + p2);
         return "index";
 
